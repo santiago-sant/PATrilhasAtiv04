@@ -1,0 +1,30 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Informe seu nome:");
+        string nome = Console.ReadLine();
+        int quantidade_Palavras = nome.Length; 
+
+        Console.WriteLine("Informe sua idade:");
+        int idade;
+
+        while (!int.TryParse(Console.ReadLine(), out idade))
+        {
+            Console.WriteLine("Por favor, digite um número válido para a idade:");
+        }
+
+       
+        if (quantidade_Palavras <= 3 && idade <= 18) 
+        {
+            Console.WriteLine("Acesso permitido!");
+        }
+        else
+        {
+            Console.WriteLine("Acesso negado");
+        }
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
