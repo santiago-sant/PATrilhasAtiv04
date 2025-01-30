@@ -14,7 +14,7 @@ class Program
 				}
 				else
 				{
-					Console.WriteLine ("Voce é PAIA KKKKKK!");
+					Console.WriteLine (" Essa não e a serie ideal para voce");
 				}
 					        
 			
