@@ -1,0 +1,20 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digite uma palavra:");
+        string palavra = Console.ReadLine();
+
+        if (!string.IsNullOrWhiteSpace(palavra)) 
+        {
+            Console.WriteLine("A palavra não é vazia.");
+        }
+        else
+        {
+            Console.WriteLine("Você não digitou uma palavra válida.");
+        }
+
+        Console.Write("Pressione qualquer tecla para sair...");
+        Console.ReadKey();
+    }
+}
