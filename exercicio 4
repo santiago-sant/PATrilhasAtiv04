@@ -1,0 +1,24 @@
+class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine(" Voce ja assitiu a alguma serie na Amazon? (sim/nao)");
+			string serie1 = Console.ReadLine().ToLower();
+			
+			Console.WriteLine(" Voce já assitiu The Boys? (sim/nao)");
+			string serie2 = Console.ReadLine().ToLower();
+				
+				if(serie1 == "sim" && serie2 == "sim")
+				{
+					Console.WriteLine ("Perfeito, você pode assistir a nova temporada! ");
+				}
+				else
+				{
+					Console.WriteLine ("Voce é PAIA KKKKKK!");
+				}
+					        
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
