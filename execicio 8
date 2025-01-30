@@ -1,0 +1,21 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine(" Voce deseja comprar o produto ?");
+        string entrada1 = Console.ReadLine().ToLower();
+ 	
+ 
+        if (entrada1 == "sim" || entrada1 == "s")
+        {
+            Console.WriteLine(" Obrigado pela compra! ");
+        }
+        else
+        {
+            Console.WriteLine(" Obrigado pela atenção, volte sempre");
+        }
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
