@@ -1,0 +1,21 @@
+class Program
+{
+    public static void Main(string[] args)
+    {	
+        Console.WriteLine(" Digite seu nome ?");
+        string entrada1 = Console.ReadLine().ToLower();
+ 	
+ 
+        if (entrada1 == "wilson" || entrada1 == "gloria")
+        {
+            Console.WriteLine("Olá, bem-vindo(a) de volta!");
+        }
+        else
+        {
+            Console.WriteLine(" Tente de novo ");
+        }
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
