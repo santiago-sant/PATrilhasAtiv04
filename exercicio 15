@@ -1,0 +1,21 @@
+class Program
+	{
+	    public static void Main(string[] args)
+	    {
+	        Console.WriteLine(" Voce não deseja cancelar uma operação.:");
+	        string palavra = Console.ReadLine();
+	
+	        if ( palavra == "não")
+	        {
+	            Console.WriteLine("Por favor, confirme o cancelamento da operação..");
+	        }
+	        else
+	        {
+	            Console.WriteLine("OK ");
+	        }
+	
+	        Console.Write("Pressione qualquer tecla para sair...");
+	        Console.ReadKey();
+	    }
+	}
+
