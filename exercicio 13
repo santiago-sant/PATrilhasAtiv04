@@ -1,0 +1,22 @@
+class Program
+{
+    public static void Main(string[] args)
+    {	
+        Console.WriteLine("  Voce e um membro inativo do clube ?");
+        string entrada1 = Console.ReadLine().ToLower();
+        
+ 	
+ 
+        if (entrada1 == "nanao")
+        {
+            Console.WriteLine("Por favor, atualize sua inscrição para continuar usufruindo dos benefícios do clube. ");
+        }
+        else 
+        {
+        	Console.WriteLine("Bem vindo");
+        }
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
