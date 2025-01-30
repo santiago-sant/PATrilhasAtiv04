@@ -1,0 +1,21 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Gostaria de leite ou açucar no cafe :");
+        string entrada1 = Console.ReadLine().ToLower();
+
+ 
+        if (entrada1 == "sim") 
+        {
+            Console.WriteLine(" Café com adicional preparado ");
+        }
+        else
+        {
+            Console.WriteLine(" Cafe sem adicional preparado ");
+        }
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
