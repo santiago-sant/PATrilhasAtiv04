@@ -1,0 +1,22 @@
+class Program
+{
+    public static void Main(string[] args)
+    {	
+        Console.WriteLine("  Voce e um robô ?");
+        string entrada1 = Console.ReadLine().ToLower();
+        
+ 	
+ 
+        if (entrada1 == "não")
+        {
+            Console.WriteLine(" Prove que voce não e um robô ");
+        }
+        else 
+        {
+        	Console.WriteLine("Acesso negado");
+        }
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
