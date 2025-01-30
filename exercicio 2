@@ -1,0 +1,24 @@
+class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Deseja comprar um carro novo ?");
+			string entrada1 = Console.ReadLine().ToLower();
+			
+			Console.WriteLine(" Voce tem dinheiro suficiente para comprar um carro ?");
+					string entrada2 = Console.ReadLine().ToLower();
+				
+				if(entrada1 == "sim" && entrada2 == "sim")
+				{
+					Console.WriteLine ("Parabéns, você pode comprar um carro novo! .");
+				}
+				else
+				{
+						Console.WriteLine ("Tudo bem deixa para a proxima!");
+				}
+					        
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
