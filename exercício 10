@@ -1,0 +1,18 @@
+class Program
+{
+    public static void Main(string[] args)
+    {	
+        Console.WriteLine(" Digite um numero inteiro ?");
+        int entrada1 = int.Parse(Console.ReadLine());
+ 	
+ 
+        if (entrada1 > 10 || entrada1 < 0 )
+        {
+            Console.WriteLine("Numero invalido!");
+        }
+        
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
