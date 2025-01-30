@@ -1,0 +1,22 @@
+class Program
+{
+    public static void Main(string[] args)
+    {	
+        Console.WriteLine("  Digite um número :");
+        int entrada1 = int.Parse(Console.ReadLine());
+        
+ 	
+ 
+        if (entrada1 != 0)
+        {
+            Console.WriteLine("O número é diferente de zero. ");
+        }
+        else 
+        {
+        	Console.WriteLine("O numero e igual a zero");
+        }
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
