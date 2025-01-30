@@ -1,0 +1,25 @@
+
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine(" Voce possui um diploma de ensino superior ?");
+			string entrada1 = Console.ReadLine().ToLower();
+			
+			Console.WriteLine(" Voce tem mias de 21 anos ?");
+					string entrada2 = Console.ReadLine().ToLower();
+				
+				if(entrada1 == "sim" && entrada2 == "sim")
+				{
+					Console.WriteLine ("Parabéns, você está qualificado para a vaga!.");
+				}
+				else
+				{
+						Console.WriteLine ("Voce ano esta qualifcado para essa vaga");
+				}
+					        
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
